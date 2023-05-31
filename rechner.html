@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMC PA Rechner</title>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    
+    <div class="formDiv">
+        <form>
+            <div class="Eingabe">
+                <input type="text" name="num1" id="num1" placeholder="Zahl 1...">
+                <select name="x" id="selects">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <input type="text" name="num2" id="num2" placeholder="Zahl 2...">
+            </div>
+
+            <div class="rechnenButton">
+            <input type="button" value="Rechnen" onclick="calculate()">
+            </div>
+
+            <div class="resultField">
+                <label for="result">Ergebnis:</label>
+                <textarea name="result" id="result" cols="30" rows="7" readonly></textarea>
+            </div>
+        </form>
+    </div>
+
+    <script src="./src/calculate.js"></script>
+</body>
+</html>

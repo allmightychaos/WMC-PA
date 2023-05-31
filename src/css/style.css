@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.formDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: start;
+  margin-top: 50px;
+  background-color: grey;
+  width: 450px;
+  height: 350px;
+}
+.formDiv form {
+  margin: 25px 0;
+}
+.formDiv form .Eingabe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formDiv form .Eingabe input {
+  margin: 10px;
+  width: 30%;
+  height: 25px;
+  padding: 5px;
+  font-size: 18px;
+}
+.formDiv form .Eingabe select {
+  margin: 10px;
+  width: 45px;
+  height: 38px;
+}
+.formDiv form .rechnenButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.formDiv form .rechnenButton input {
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+}
+.formDiv form .resultField {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 15px 15px 15px;
+}
+.formDiv form .resultField label {
+  color: white;
+}
+.formDiv form .resultField textarea {
+  margin-top: 5px;
+  font-size: 18px;
+}

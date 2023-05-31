@@ -1,2 +1,2 @@
 # WMC-PA
-2. PA von WMC
+![Rechner Bild](./calculator.png)
